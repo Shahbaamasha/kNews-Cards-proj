@@ -1,0 +1,36 @@
+/* src/view/Home.css */
+.container {
+  padding: 20px;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body .btn-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-body .btn-primary {
+  align-self: start;
+  margin-top: auto;
+}
+
+.card-body .mt-auto {
+  margin-top: auto;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}

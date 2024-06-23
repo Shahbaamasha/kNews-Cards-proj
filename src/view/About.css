@@ -1,0 +1,31 @@
+.container {
+  max-width: 900px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 0.75rem;
+}
+
+.card-title {
+  color: #343a40;
+}
+
+.card-text,
+.list-group-item {
+  color: #6c757d;
+}
+
+.list-group-item {
+  border: none;
+}
+
+h2 {
+  color: #495057;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}

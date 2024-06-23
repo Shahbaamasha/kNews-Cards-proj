@@ -1,0 +1,26 @@
+.login-container {
+  background-color: #f8f9fa;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  /box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .login-container {
+  background-color: #343a40;
+}
+
+.dark-mode .login-form {
+  background-color: #454d55;
+  border-color: #555;
+  color: #fff;
+}

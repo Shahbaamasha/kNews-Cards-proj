@@ -1,0 +1,51 @@
+.article-details-container {
+  max-width: 800px;
+  margin: 1rem auto;
+  padding: 20px;
+  border: 1px solid #333;
+  box-shadow: -1px 1px 9px -1px #000000;
+}
+
+.article-details-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.article-details-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.article-details-container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.article-details-container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.article-details-container button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+.article-details-container button:hover {
+  color: #f00;
+}
+
+.article-details-container button:focus {
+  outline: none;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

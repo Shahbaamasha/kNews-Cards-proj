@@ -1,0 +1,37 @@
+/* src/component/Footer.css */
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.footer-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav-list li {
+  display: inline;
+}
+
+.footer-nav-list a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.footer-nav-list a.active {
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.dark-mode .footer {
+  background-color: #343a40;
+}

@@ -1,0 +1,27 @@
+.card {
+  margin-bottom: 20px;
+  height: 500px;
+}
+
+.card img {
+  height: 300px;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.map-container {
+  margin: 20px 0;
+}
